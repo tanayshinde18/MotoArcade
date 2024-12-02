@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+  text-decoration: none;
+}
+.navbar {
+  height: 60px;
+  background-color: #242b3d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 50px;
+  width: 170px;
+}
+.logo {
+  height: 50px;
+  background-image: url("/images/logo.png");
+  width: 100%;
+  background-size: cover;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 2px solid #8d8989;
+}
+/*box2*/
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+.add-second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+/*box3*/
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+.nav-search:hover {
+  border: 2px solid orange;
+}
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.search-icon {
+  height: auto;
+  width: 45px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #dec90e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+/*box4*/
+.navsec {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.navfirst {
+  font-size: 0.7rem;
+}
+/*box5*/
+.navcart i {
+  font-size: 27px;
+}
+.navcart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+/*panel*/
+.panel {
+  color: #cccccc;
+  display: flex;
+  height: 40px;
+  background-color: #394053;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.panel-ops p {
+  display: inline;
+  margin-left: 18px;
+}
+.panel-ops {
+  font-size: 0.85rem;
+  width: 70%;
+}
+.panel-deals {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+/*hero section*/
+.hero-section {
+  height: 600px;
+  background-size: cover;
+  background-image: url("/images/section.png");
+}
+.re-headline {
+  display: block;
+  justify-content: flex-start;
+  text-align: left;
+  padding-top: 25%;
+}
+.re-headline h1 {
+  color: #cccccc;
+  font-size: 50px;
+}
+.re-headline p {
+  color: #cccccc;
+  font-size: 80px;
+}
+#ordrbuton {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-size: 1.25rem;
+  border-radius: 4px;
+}
+
+#ordrbuton:hover {
+  background-color: lightgray;
+}
+.offers {
+  color: #dedda7;
+  font-weight: 500;
+  padding-top: 50px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #101822;
+}
+.offers a {
+  color: #dedda7;
+  padding-bottom: 8px;
+}
+.offer1 {
+  text-align: center;
+  border-radius: 5px;
+  height: 200px;
+  width: 350px;
+  border: 5px solid rgb(53, 138, 151);
+  background-size: contain;
+  background-image: url("/images/fog.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.offer2 {
+  text-align: center;
+  border-radius: 5px;
+  height: 200px;
+  width: 350px;
+  border: 5px solid rgb(53, 138, 151);
+  background-size: contain;
+  background-image: url("/images/bag.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.offer3 {
+  text-align: center;
+  border-radius: 5px;
+  height: 200px;
+  width: 350px;
+  border: 5px solid rgb(53, 138, 151);
+  background-size: contain;
+  background-image: url("/images/knuckle\ guards.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.air-seat a {
+  color: #cccccc;
+}
+.air-seat {
+  height: 450px;
+  width: 1100px;
+  text-align: center;
+  border-radius: 20px;
+  border: 5px solid red;
+  background-size: cover;
+  background-image: url("/images/airseat.png");
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 25px;
+  color: #dedda7;
+  font-weight: 700;
+}
+.air-seat-outer {
+  display: flex;
+  align-items: center;
+  height: 550px;
+  justify-content: center;
+  background-color: #090908;
+}
+.jacket-outer {
+  display: flex;
+  height: 500px;
+  background-color: #0d3e3c;
+  justify-content: center;
+  align-items: center;
+}
+.jacket-big {
+  margin: auto;
+  border-radius: 10px;
+  height: 70%;
+  width: 32%;
+  background-image: url("/images/jacket\ big.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  border: 5px solid black;
+}
+.jacket1 {
+  text-align: center;
+  font-size: 40px;
+}
+.jacket-small {
+  margin: auto;
+  border: 2px solid transparent;
+  height: 70%;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.jacket3 {
+  text-align: center;
+  font-size: 25px;
+  margin: auto;
+  height: 150px;
+  width: 238px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 5px solid black;
+  background-image: url("/images/boots.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.jacket4 {
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: auto;
+  height: 150px;
+  width: 238px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 5px solid black;
+  background-image: url("/images/gloves.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.jacket5 {
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: auto;
+  height: 150px;
+  width: 238px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 5px solid black;
+  background-image: url("/images/knee\ guard.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.jacket6 {
+  text-align:center;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: auto;
+  height: 150px;
+  width: 238px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 5px solid black;
+  background-image: url("/images/pants_copy_756ac404-993a-4aee-a8ca-2032b42bfc34.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+footer{
+background-color: #333;
+color: white;
+padding: 20px;
+text-align: center;
+}
+.footer-links {
+margin-top: 10px;
+}
+.footer-links a {
+color: white;
+text-decoration: none;
+margin: 0 10px;
+}
+.footer-links a:hover {
+color: #ddd;
+}
